@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower');
+
+
+
 body{  background-color: white;
-       font-family: sans-serif;}
+  font-family: 'Indie Flower', cursive;
+font-family: 'Dancing Script', cursive;}
 
   h1{ color: orange;
        background-color: white;}
@@ -39,7 +44,8 @@ ul  li{list-style: circle;}
 .black{  color: black;}
 
 .white{color: white;
-  font-family: sans-serif;
+  font-family: 'Indie Flower', cursive;
+font-family: 'Dancing Script', cursive;
   background-color: gray;}
 
 .blue{color: red;}
