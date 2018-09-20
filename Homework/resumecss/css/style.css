@@ -1,0 +1,45 @@
+body{  background-color: white;
+       font-family: sans-serif;}
+
+  h1{ color: orange;
+       background-color: white;}
+
+  h2{color : orange;  }
+
+  p{color: green;}
+
+  a{text-decoration: none;
+      color: gray;
+      font-weight: bolder;  }
+
+  h3{color : orange;}
+
+  a:hover{ color: red;
+       text-decoration: underline;}
+
+a:visited  {color: gray;}
+
+#name {text-align: center;
+    background-color: green;}
+
+#xxxx {text-align: center;
+    background-color: green;}
+
+p{line-height: 30px;
+   text-ident: 2px;}
+
+ul  li{list-style: circle;}
+
+.red{color: orange;
+   text-align: center;
+   background-color: green;}
+
+.gray{color: gray;}
+
+.black{  color: black;}
+
+.white{color: white;
+  font-family: sans-serif;
+  background-color: gray;}
+
+.blue{color: red;}
