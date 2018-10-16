@@ -1,0 +1,149 @@
+#changeText{
+
+color: pink;
+font-weight: bold;
+text-decoration: underline;
+}
+
+#fontChange{
+
+font-family: sans-serif;
+
+
+}
+
+.backgroundChange{
+
+
+
+  background-color: gray;
+}
+
+#con{
+      background-color: white;
+      width: 950px;
+      height: 600px;
+      margin-left: 25px;
+
+      border : solid;
+      border-color: black;
+
+      border-top: 10px;
+      border-left: 10px;
+      border-right: 10px;
+      border-bottom: 10px;
+
+}
+
+#box1{
+  background-color: #D0D0D0;
+  width: 200px;
+  height: 530px;
+display:inline-block;
+margin: 0 auto;
+margin-top: 20px;
+margin-left: 20px;
+  border: solid #505050 5px;
+}
+
+#box2{
+  background-color: #D0D0D0;
+  width: 650px;
+  height: 530px;
+  display:inline-block;
+margin: 0 auto;
+margin-top: 20px;
+margin-left: 20px;
+vertical-align: top;
+border: solid #505050 5px;
+}
+
+#col{
+  background-color: #E0E0E0;
+  width: 290px;
+  height: 488px;
+  display:inline-block;
+  margin: 0 auto;
+  vertical-align: top;
+  margin-left: 20px;
+  margin-top: 15px;
+
+
+}
+
+
+@media only screen and (min-width: 200px){
+
+  body{
+
+    background-color: gray;
+  }
+}
+
+@media only screen and (max-width: 960px){
+
+  body{
+
+    background-color: black;
+  }
+}
+
+header{
+         background-color: black;
+         width: 1000px;
+         height: 200px;
+           margin: 0 auto;
+           margin-top: -20px;
+
+}
+
+
+main{
+
+  background-color: gray;
+  color : white;
+  width: 1000px;
+           height: 600px;
+    margin: 0 auto;
+           margin-top: -20px;
+}
+
+footer{
+
+  background-color: black;
+  width: 1000px;
+           height: 200px;
+    margin: 0 auto;
+           margin-top: -16px;
+}
+
+nav{
+  background-color: white;
+   width: 300px;
+   margin: 0 auto;
+
+}
+
+nav ul{
+
+
+}
+
+nav ul li{
+          list-style: none;
+          display: inline-block;
+          margin-right: 10px;
+
+}
+
+nav ul li a {
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+
+}
+
+nav ul li a:hover{
+
+  color: gray;
+}
