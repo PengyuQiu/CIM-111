@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Intro to javascript</title>
+</head>
+
+<body>
+
+  <h1 id="changeText">Intro to javascript</h1>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+//Write a accompaniment
+//Start of script
+
+$(document).ready(function(){
+//All code should be placed below
+
+$("body").css("background-color","pink");
+$("h1").css("color","blue");
+$("#changeText").css("font-size","40px");
+$("#changeText").html("I love javascript!!!!");
+
+$("#changeText").click(function(){
+
+$("body").css("background-color","yellow");
+
+
+});//end of document ready
+
+});//end of document ready
+
+</script>
+
+</body>
+
+
+
+</html>
