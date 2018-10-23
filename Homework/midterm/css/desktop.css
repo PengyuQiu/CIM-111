@@ -57,7 +57,7 @@ text-align: center;
 #col3{
 grid-area: col3;
 background-color: #B0B0B0;
-height: 170;
+height: 173;
 margin-top: 20px;
 margin-left: 7px;
 
@@ -65,7 +65,7 @@ margin-left: 7px;
 
 #col4{   grid-area: col4;
  background-color: #B0B0B0;
- height: 170px;
+ height: 173px;
    margin-top: 20px;
      margin-left: 7px;
 
@@ -74,7 +74,7 @@ margin-left: 7px;
 
 #col5{   grid-area: col5;
  background-color: #B0B0B0;
- height: 170px;
+ height: 173px;
    margin-top: 20px;
      margin-left: 7px;
 }
@@ -120,6 +120,42 @@ margin-left: 5px;
 }
 
 #col7{
+
+grid-area: col7;
+background-color: black;
+
+height: 220px;
+margin-left: 5px;
+
+}
+
+#box3{
+display: grid;
+background-color:	#080808;
+grid-template-areas: "col6 col7";
+height:220px;
+width: 80%;
+margin: 0 auto;
+
+grid-auto-rows: 1fr;
+
+    text-align: center;
+
+
+}
+
+
+#col8{
+
+grid-area: col6;
+background-color: black;
+
+height: 220px;
+margin-left: 5px;
+
+}
+
+#col9{
 
 grid-area: col7;
 background-color: black;
@@ -188,11 +224,17 @@ margin-left: 10px;
 margin-right: 10px;
 font-size: 15px;
 height:
-
-
-
-
 }
+
+#p1{
+color: grey;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 20px;
+height:
+}
+
+
 h4{
  color: grey;
  font-size: 30px;
