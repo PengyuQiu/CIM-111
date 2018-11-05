@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>How to make</title>
+
+  <style>
+
+  header, footer{
+     width: 100%;
+     height: 100px;
+     background-color: #FFCC33;
+  }
+
+  main{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+  }
+
+h1{
+
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+margin-left: 250px;
+
+}
+
+h2{
+
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+margin-left: 680px;
+color:#FFCC33;}
+
+
+
+h3{
+margin-left: 580px;
+}
+
+#grid1{
+
+display: grid;
+grid-template-areas: "col1 col2 col3 col4 col5";
+grid-auto-rows: 1fr;
+grid-template-columns: 20% 20% 20% 20% 20%;
+text-align: center;
+
+}
+
+#col1{
+  grid-area: col1;
+  background-color: #FFCC33;
+
+height: 550px;
+  width:260px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+#col2{
+  grid-area: col2;
+  background-color: #FFCC33;
+  height: 550px;
+  width: 260px;
+  margin-left: 10px;
+    margin-top: 30px;
+      margin-right: 10px;
+}
+
+#col3{
+  grid-area: col3;
+  background-color: #FFCC33;
+  height: 550px;
+  width: 260px;
+  margin-left: 10px;
+    margin-top: 30px;
+      margin-right: 10px;
+}
+
+#col4{
+  grid-area: col4;
+  background-color: #FFCC33;
+  height: 550px;
+  width: 260px;
+  margin-left: 10px;
+    margin-top: 30px;
+      margin-right: 10px;
+}
+
+#col5{
+  grid-area: col5;
+  background-color: #FFCC33;
+  height: 550px;
+  width: 260px;
+  margin-left: 10px;
+    margin-top: 30px;
+      margin-right: 10px;
+}
+
+#photo1{
+
+  margin-top: 8px;
+}
+
+#photo2{
+
+  margin-top: 8px;
+}
+
+#photo3{
+
+  margin-top: 8px;
+}
+#photo4{
+
+  margin-top: 8px;
+}
+#photo5{
+
+  margin-top: 8px;
+}
+
+h4{
+
+  font-size: 30px;
+}
+
+ #box{width: 98%;
+ height: 50px;
+  background-color: #FFCC33;
+  margin-left: 20px;
+
+
+
+ }
+
+ #show{
+
+   color:#FFCC33;
+ }
+
+ #hide{
+
+      color:#FFCC33;
+ }
+
+  </style>
+
+</head>
+
+<body>
+
+<header><h1>How to make meat balls with white source</h1></header>
+
+<main>
+
+  <div id="grid1">
+    <div id="col1"><h4 id="info1">Step 1</h4>  <div id="recepticle1"> </div>
+      <img id="photo1" src="images/1.JPG" width="20px"><div id="imageRecepticle1"></div>
+      <p>Ground beef and ground pork, milk, cream, bread crumbs, onions, white mushroom, garlic, salt and black pepper, butter, olive oil, baguette.</p></div>
+                  <div id="col2"><h4 id="info2">Step 2</h4>  <div id="recepticle2"> </div><img id="photo2" src="images/2.JPG" width="20px"><div id="imageRecepticle2"></div><p>Mix ground beef and ground pork, a little bit milk and Bread crumbs in a bowl, smash them at least 20 times, then add salt and black pepper and mix them again.Hot pan with cold olive oil, fired meats with high heat for 3 minuses. It doesn’t need to be cooked well, medium well is ok.</p></div>
+                  <div id="col3"><h4 id="info3">Step 3</h4>  <div id="recepticle3"> </div><img id="photo3" src="images/3.JPG" width="20px"><div id="imageRecepticle3"></div><p>Make a new hot pan, add butter and melt the butter, then add garlic, sliced onion fired. Add cream and milk, and white mushroom, boil them for 20 minutes with low fire.</p></div>
+                  <div id="col4"><h4 id="info4">Step 4</h4>  <div id="recepticle4"> </div><img id="photo4" src="images/4.JPG" width="20px"><div id="imageRecepticle4"></div><p>Add medium well meat balls into the white saurce, boil them together for another 10 minutes with middle heat.</p></div>
+                  <div id="col5"><h4 id="info5">Step 5</h4>  <div id="recepticle5"> </div><img id="photo5" src="images/5.JPG" width="20px"><div id="imageRecepticle5"></div><p>Slice three baguette, but them on the side of the plate, then put five meat balls at the center, sauce and mushroom on the top.</p></div>
+
+</div>
+<ul>
+
+  <li id="show">Show Tips</li>
+  <li id="hide">Hide Tips</li>
+
+
+</ul>
+<div id="box"><p>The ground must be smashed over 20 times, if not, the balls will easliy disperse when it is boiling. Try to cut the onions as small as you can, because most people do not like the taste of onions.</p></div>
+</main>
+
+
+
+<footer>
+
+  <h3>&nbsp; &nbsp; &nbsp; &copy; 2018 Pengyu Qiu</h3>
+
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+
+
+$("h1").css("color","#FFFFCC");
+$("h3").css("color","#FFFFCC");
+$("h4").css("color","#FFFFCC");
+$("p").css("color","#FFFFCC");
+
+});
+
+$("#info1").mouseenter(function(){
+
+$("#recepticle1").html("<em>What you need</em>");
+$("#info1").css("background-color","#FF3333");
+
+});
+
+$("#info1").mouseleave(function(){
+
+$("#recepticle1").html("");
+$("#info1").css("background-color","transparent");
+
+});
+
+$("#info2").mouseenter(function(){
+
+$("#recepticle2").html("<em>How to cook meat balls</em>");
+$("#info2").css("background-color","#FF3333");
+
+});
+
+$("#info2").mouseleave(function(){
+
+$("#recepticle2").html("");
+$("#info2").css("background-color","transparent");
+
+});
+
+$("#info3").mouseenter(function(){
+
+$("#recepticle3").html("<em>How to make whitw sauce</em>");
+$("#info3").css("background-color","#FF3333");
+
+});
+
+$("#info3").mouseleave(function(){
+
+$("#recepticle3").html("");
+$("#info3").css("background-color","transparent");
+
+});
+
+$("#info4").mouseenter(function(){
+
+$("#recepticle4").html("<em>How to mix</em>");
+$("#info4").css("background-color","#FF3333");
+
+});
+
+$("#info4").mouseleave(function(){
+
+$("#recepticle4").html("");
+$("#info4").css("background-color","transparent");
+
+});
+
+$("#info5").mouseenter(function(){
+
+$("#recepticle5").html("<em>Final Step</em>");
+$("#info5").css("background-color","#FF3333");
+
+});
+
+$("#info5").mouseleave(function(){
+
+$("#recepticle5").html("");
+$("#info5").css("background-color","transparent");
+
+});
+
+$("#photo1").click(function(){
+
+$("#imageRecepticle1").html('<img src="images/1.JPG" width="245px">');
+
+});
+
+$("#photo2").click(function(){
+
+$("#imageRecepticle2").html('<img src="images/2.JPG" width="245px">');
+
+});
+$("#photo3").click(function(){
+
+$("#imageRecepticle3").html('<img src="images/3.JPG" width="245px">');
+
+});
+
+$("#photo4").click(function(){
+
+$("#imageRecepticle4").html('<img src="images/4.JPG" width="245px">');
+
+});
+
+$("#photo5").click(function(){
+
+$("#imageRecepticle5").html('<img src="images/5.JPG" width="245px">');
+
+});
+
+$("#hide").click(function(){
+
+
+$("#box").hide();
+
+});
+
+$("#show").click(function(){
+
+
+$("#box").show();
+
+});
+</script>
+</body>
+
+
+
+</html>
