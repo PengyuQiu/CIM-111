@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<title>Vacation</title>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+<style>
+
+header, footer{
+   width: 100%;
+   height: 100px;
+   background-color: #181818;
+}
+
+main{
+  width: 100%;
+  height: 400px;
+  background-color: #383838;
+}
+
+h1{
+
+
+  font-size: 50px;
+margin-left: 450px;
+}
+
+
+.char1{color: #0000FF;}
+.char2{color: #0033FF;}
+.char3{color: #0066FF;}
+.char4{color: #0099FF;}
+.char5{color: #00CCFF;}
+.char6{color: #0099FF;}
+.char7{color: #0066FF;}
+.char8{color: #0033FF;}
+.char9{color: #0000FF;}
+.char10{color: #0033FF;}
+.char11{color: #0066FF;}
+.char12{color: #0099FF;}
+.char13{color: #00CCFF;}
+.char14{color: #0099FF;}
+.char15{color: #0066FF;}
+.char16{color: #0033FF;}
+.char17{color: #0000FF;}
+.char18{color: #0033FF;}
+.char19{color: #0066FF;}
+.char20{color: #0099FF;}
+
+
+.word7{color: #9900FF;    font-size: 25px;}
+.word8{color: #9933FF;    font-size: 25px;}
+.word9{color: #9966FF;    font-size: 25px;}
+.line2{
+
+  font-family: fantasy;
+}
+
+p{
+
+  color: #99CCFF;
+  margin-left: 15px;
+}
+
+h3{
+
+margin-left: 580px;
+color:#6699FF;
+
+}
+
+#grid1{
+
+display: grid;
+grid-template-areas: "col1 col2 col3 col4 col5";
+grid-auto-rows: 1fr;
+grid-template-columns: 20% 20% 20% 20% 20%;
+text-align: center;
+
+}
+
+#col1{
+  grid-area: col1;
+  background-color: #99CCFF;
+
+height: 170px;
+  width:250px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+#col2{
+  grid-area: col2;
+  background-color: #99CCFF;
+  height: 170px;
+  width: 250px;
+  margin-left: 15px;
+    margin-top: 30px;
+      margin-right: 10px;
+}
+
+#col3{
+  grid-area: col3;
+  background-color: #99CCFF;
+  height: 170px;
+  width: 250px;
+  margin-left: 15px;
+    margin-top: 30px;
+      margin-right: 10px;
+}
+
+#col4{
+  grid-area: col4;
+  background-color: #99CCFF;
+  height: 170px;
+  width: 250px;
+  margin-left: 15px;
+    margin-top: 30px;
+      margin-right: 10px;
+}
+
+#col5{
+  grid-area: col5;
+  background-color: #99CCFF;
+  height: 170px;
+  width: 250px;
+  margin-left: 10px;
+    margin-top: 30px;
+      margin-right: 10px;
+}
+
+#image1{
+
+
+  margin-top: 20px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+<header><h1 id="letters">Night in Yellowstone</h1></header>
+<main><p id="wordSplit">  The greater region of Yellowstone National Park is known for big skies and clean (although sulfured) air. Untainted by light pollution, the park provides the perfect opportunity to view all the brilliant stars and constellations. Bring a star chart and don't forget your telescope. Also, remember it's grizzly country, so take the same precautions you would during the day.</p>
+
+<div id="grid1">
+<div id="col1">  <a data-fancybox="gallery"  id="image1" href="images/1.jpg"><img id="image1" src="images/1.jpg"width="200px"></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</div>
+<div id="col2"> <a data-fancybox="gallery"  id="image1" href="images/2.jpg"><img id="image1" src="images/2.jpg"width="200px"></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></div>
+<div id="col3"> <a data-fancybox="gallery"  id="image1" href="images/3.jpg"><img id="image1" src="images/3.jpg"width="200px"></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></div>
+<div id="col4"> <a data-fancybox="gallery"  id="image1" href="images/4.jpg"><img id="image1" src="images/4.jpg"width="200px"></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></div>
+<div id="col5"> <a data-fancybox="gallery"  id="image1" href="images/5.jpg"><img id="image1" src="images/5.jpg"width="200px"></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></div>
+
+</div>
+</main>
+
+
+
+
+<script src="js/jquery.lettering.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+
+<footer>  <h3>&nbsp; &nbsp; &nbsp; &copy; 2018 Pengyu Qiu</h3></footer>
+
+<script>
+
+
+$("document").ready(function(){
+
+
+$("#letters").lettering();
+$(".char1").css("color","#0000FF");
+$("#wordSplit").lettering("words");
+$("#sentence").lettering("lines") ;
+
+
+
+
+
+});
+
+</script>
+
+
+</body>
+
+
+
+
+
+
+
+</html>
