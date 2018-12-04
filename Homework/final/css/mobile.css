@@ -1,0 +1,455 @@
+@import "desktop.css";
+header{
+   width: 100%;
+   height: 239px;
+   background-color: #484848;
+}
+
+main{
+  width: 100%;
+  height: 7400px;
+  background-color: white;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: #484848;
+}
+
+
+#grid1{
+
+display: grid;
+grid-template-areas: "col1" "col2";
+grid-auto-rows: 1fr 1fr;
+grid-template-columns: 100%;
+text-align: center;
+
+}
+
+#col1{
+  grid-area: col1;
+  background-color: #989898;
+margin-left: 15px;
+height: 243px;
+  width: 360px;
+  margin-top: 50px;
+
+
+}
+
+#col2{
+  grid-area: col2;
+  background-color: white;
+  height: 280px;
+margin-left: -5px;
+  width: 400px;
+  margin-top: 30px;
+}
+
+
+
+
+#grid2{
+
+display: grid;
+grid-template-areas: "col3" "col4" "col5";
+grid-auto-rows: 1fr 1fr 1fr;
+grid-template-columns: 100%;
+text-align: center;
+
+}
+
+#col3{
+  grid-area: col3;
+  background-color: #989898;
+margin-left: 40px;
+height: 510px;
+  width: 300px;
+  margin-top: 50px;
+}
+
+#col4{
+  grid-area: col4;
+  background-color: #989898;
+  height: 510px;
+margin-left: 40px;
+  width: 300px;
+  margin-top: 50px;
+}
+
+#col5{
+  grid-area: col5;
+  background-color: #989898;
+  height: 510px;
+margin-left: 40px;
+  width: 300px;
+  margin-top: 50px;
+
+}
+
+#box{
+  background-color: 6;
+  width: 90%;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 70px;
+
+}
+
+#grid3{
+
+display: grid;
+grid-template-areas: "col6 col7";
+grid-auto-rows: 1fr;
+grid-template-columns: 50% 50%;
+text-align: center;
+
+}
+
+#col6{
+  grid-area: col6;
+  background-color: white;
+margin-left: 150px;
+height: 440px;
+  width: 500px;
+  margin-top: 50px;
+
+
+}
+
+#col7{
+  grid-area: col7;
+  background-color: white;
+  height: 440px;
+margin-left: 100px;
+  width: 500px;
+  margin-top: 80px;
+}
+
+#grid4{
+
+display: grid;
+grid-template-areas: "col8 col9";
+grid-auto-rows: 1fr;
+grid-template-columns: 50% 50%;
+text-align: center;
+
+}
+
+#col8{
+  grid-area: col8;
+  background-color: white;
+margin-left: 50px;
+height: 100px;
+  width: 180px;
+  margin-top: -20px;
+
+
+}
+
+#col9{
+  grid-area: col9;
+  background-color: white;
+  height: 100px;
+margin-left: 22px;
+  width: 180px;
+  margin-top: -20px;
+}
+
+#box2{
+
+  background-color: white;
+  height: 170px;
+margin-left: 50px;
+  width: 400px;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+#box3{
+
+  background-color: 	#B0B0B0;
+  height: 30px;
+margin-left: 660px;
+  width: 150px;
+margin-top: 45px;
+}
+
+#box4{
+
+  background-color: white;
+  height: 170px;
+margin-left: 50px;
+  width: 400px;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+#box5{
+
+  background-color: white;
+  height: 170px;
+margin-left: 50px;
+  width: 400px;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+#box6{
+
+  background-color: #484848;
+  height: 60px;
+  width: 615px;
+  margin-left: 0px;
+
+}
+
+#box7{
+
+  background-color: #D0D0D0;
+  height: 108px;
+  width: 100%;
+  margin-bottom: -20px;
+}
+
+
+
+#image{
+
+height: 450px;
+margin-top: 34px;
+
+}
+
+#image1{
+
+height: 230px;
+margin-top: 5px;
+
+}
+
+#image2{
+
+height: 490px;
+margin-top: 5px;
+margin-left: 210px;
+
+}
+
+#image3{
+
+height: 90px;
+margin-top: 5px;
+margin-left: 2px;
+
+}
+
+#image4{
+
+height: 90px;
+margin-top: 5px;
+margin-left: 2px;
+
+}
+
+#image5{
+
+height: 90px;
+margin-top: 5px;
+margin-left: 2px;
+
+}
+
+#image6{
+
+height: 90px;
+margin-top: 5px;
+margin-left: 2px;
+
+}
+
+
+#image7{
+
+height: 90px;
+margin-top: 5px;
+margin-left: 2px;
+
+}
+
+#image8{
+
+height: 90px;
+margin-top: 5px;
+margin-left: 2px;
+
+}
+h3{
+color: white;
+margin-top: -50px;
+
+}
+
+h1{
+color: white;
+  font-size: 35px;
+  margin-left: 15px;
+}
+
+
+
+
+p{
+margin-left: 14px;
+margin-right: 14px;
+  font-size: 14px;
+  margin-top: -5px;
+  color: #585858;
+}
+
+a{ color: white;
+text-decoration: none;
+margin-left: 5px;
+
+font-family: fantasy;
+
+}
+
+h4{
+color: white;
+margin-left: 85px;
+
+}
+
+#grid5{
+
+display: grid;
+grid-template-areas: "cola colb colc cold cole colf colg colh coli colj colk coll";
+grid-auto-rows: 1fr;
+grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% ;
+text-align: center;
+
+}
+
+#cola{
+  grid-area: cola;
+  background-color: #FFFFFF;
+height: 40px;
+  width: 20px;
+  margin-left: 5px;
+
+
+}
+
+
+#colb{
+  grid-area: colb;
+  background-color: #FFCCFF;
+height: 40px;
+  width: 20px;
+  margin-left: 5px;
+
+}
+
+
+#colc{
+  grid-area: colc;
+  background-color: #FF99FF;
+height: 40px;
+  width: 20px;
+  margin-left: 5px;
+
+}
+
+
+
+
+#cold{
+  grid-area: cold;
+  background-color:#FFCCFF;
+  height: 40px;
+    width: 20px;
+
+  margin-left: 5px;
+}
+
+
+#cole{
+  grid-area: cole;
+  background-color: #FFFFFF;
+  height: 40px;
+    width: 20px;
+  margin-left: 5px;
+
+}
+
+
+#colf{
+  grid-area: colf;
+  background-color: #FFCCFF;
+  height: 40px;
+    width: 20px;
+  margin-left: 5px;
+
+}
+
+#colg{
+  grid-area: colg;
+  background-color: #FF99FF;
+  height: 40px;
+    width: 20px;
+
+  margin-left: 5px;
+}
+
+#colh{
+  grid-area: colh;
+  background-color: #FFCCFF;
+  height: 40px;
+    width: 20px;
+
+  margin-left: 5px;
+}
+
+#coli{
+  grid-area: coli;
+  background-color: #FFFFFF;
+    width: 20px;
+
+  margin-left: 5px;
+}
+
+#colj{
+  grid-area: colj;
+  background-color: #FF99FF;
+  height: 40px;
+    width: 20px;
+  margin-left: 5px;
+
+}
+
+#colk{
+  grid-area: colk;
+  background-color: #FFCCFF;
+  height: 40px;
+    width: 20px;
+
+  margin-left: 5px;
+}
+
+#coll{
+  grid-area: coll;
+  background-color: #FF99FF;
+  height: 40px;
+    width: 20px;
+  margin-left: 5px;
+
+}
+
+#sym{
+margin-left: 2px;
+  margin-top: 4px;
+  font-size: 15px;
+}
